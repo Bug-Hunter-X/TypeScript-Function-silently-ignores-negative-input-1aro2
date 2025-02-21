@@ -1,0 +1,3 @@
+# TypeScript Function silently ignores negative input
+
+This repository demonstrates a subtle bug in a TypeScript function that silently ignores negative input instead of throwing an error or providing appropriate feedback.  The function `printNumbers` is designed to print numbers from 1 to n. However, when a negative number is passed as input, it does nothing, which can be unexpected and lead to hard-to-debug issues.  The solution provides an improved version that handles negative input more robustly.
